@@ -172,28 +172,16 @@ https://leba.test
 
 ---
 
-## 🧱 Project Structure
+## 👤 Default Admin Account
 
-```
-leba/
-├── app/
-│   ├── controllers/
-│   │   ├── IB_Database.php
-│   │   ├── IB_Collection.php
-│   │   ├── IB_DBSeeder.php
-│   │   └── ...
-│   ├── database/
-│   │   ├── migrations/
-│   │   │   └── create_tables.php
-│   │   └── seeders/
-│   │       └── UsersTableSeeder.php
-│   ├── ib_init.php
-│   └── ...
-├── migrate.php
-├── seed.php
-├── index.php
-└── README.md
-```
+After running the seeders, you can log in using the following credentials:
+
+| Field | Value |
+|--------|--------|
+| **Username** | Administrator |
+| **Password** | password123 |
+
+> 🔒 **Note:** Please change the default password after your first login to keep your account secure.
 
 ---
 
