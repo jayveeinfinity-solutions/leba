@@ -1,0 +1,74 @@
+/*CSS Auth Document*/
+.ib_auth_main {
+	max-width: 1366px;
+	padding: 100px 0px;
+	margin: 0px auto;
+	text-align: center;
+}
+.ib_auth {
+	display: inline-block;
+	padding: 20px;
+	color: #666;
+	text-align: center;
+	border-radius: 6px;
+	box-shadow: 1px 1px 3px #ccc;
+}
+.ib_auth h2 {
+	margin: 0px 0px 20px;
+}
+.ib_input {
+	display: block;
+	width: 250px;
+	padding: 10px 20px;
+	margin: 10px;
+	font-size: 18px;
+	color: #999;
+	border-radius: 3px;
+	border: 2px solid #f5f5f5;
+	outline: 0;
+	background-color: #f9f9f9;
+	transtion: ease-in all 300ms;
+}
+.ib_input:focus {
+	border: 2px solid #eee;
+	background-color: #fff;
+}
+.ib_span {
+	font-size: 12px;
+	color: #666;
+}
+.ib_btn {
+	display: block;
+	width: 250px;
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	border: 0;
+	outline: 0;
+	border-radius: 3px;
+	background-color: #16a085;
+}
+.ib_auth_tag {
+	font-size: 14px;
+}
+.ib_auth_btn {
+	padding: 20px;
+	color: #666;
+}
+.auth_status {
+	margin: 20px 0px 0px;
+	font-size: 14px;
+	color: #fff;
+}
+.auth_error {
+	padding: 10px 20px;
+	border-radius: 3px;
+	background-color: #b53d3d;
+}
+.auth_success {
+	padding: 10px 20px;
+	border-radius: 3px;
+	background-color: #16a085;
+}

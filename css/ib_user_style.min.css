@@ -1,0 +1,185 @@
+/*Infinity User*/
+.ib_dev {
+  display: inline-block;
+  height: 256px;
+  margin-bottom: 10px;
+  border: 5px solid #16a085;
+  border-radius: 128px;
+  overflow: hidden;
+  background-color: #262626;
+}
+.ib_dev_name, .ib_dev_about, .ib_dev_high {
+  color: #16a085;
+}
+.ib_dev_name {
+  text-transform: uppercase;
+  text-align: center;
+}
+.ib_dev_sub {
+  color: #999;
+  text-align: center;
+}
+.ib_dev_btn {
+  width: 200px;
+  padding: 5px 8px;
+  margin: 0px auto 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 2px;
+  border: 2px solid #16a085;
+  outline: none;
+  text-transform: uppercase;
+  background-color: #16a085;
+  transition: ease-in all 300ms;
+}
+.ib_dev_btn:hover {
+  color: #16a085;
+  background-color: #fff;
+}
+.ib_dev_high {
+  margin: 0px 5px 20px;
+  font-size: 36px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.ib_dev_high_btn {
+  float: right;
+  padding: 5px 20px;
+  margin: 0px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 2px;
+  border: 2px solid #16a085;
+  outline: none;
+  text-transform: none;
+  background-color: #16a085;
+  transition: ease-in all 300ms;
+}
+.ib_dev_high_btn:hover {
+  color: #16a085;
+  background-color: #fff;
+}
+.ib_dev_high_des {
+  margin: 0px 25px 20px;
+  font-size: 12px;
+  color: #999;
+  text-align: right;
+}
+.ib_dev_avatar {
+  width: 256px;
+  height: 256px;
+}
+.ib_dev_avatar_btn {
+  display: none;
+  position: absolute;
+  margin: 6.5em;
+  color: #fff;
+  text-shadow: 0px 1px 10px #16a085;
+  transition: ease-in all 300ms;
+}
+.ib_dev:hover .ib_dev_avatar_btn {
+  display: inline-block;
+}
+/*input[type='file'] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 70%;
+  height: 35px;
+  cursor: pointer;
+}*/
+.ib_user_form {
+  text-align: center;
+}
+.ib_dev_input::-webkit-file-upload-button {
+  background-color: transparent;
+  color: #999;
+  border: 0;
+}
+.ib_dev_rbtn {
+  padding: 6px;
+  color: #999;
+  border: 3px solid #f5f5f5;
+  border-radius: 2px;
+  background-color: #ececec;
+  transition: ease-in all 300ms;
+}
+.ib_dev_rbtn:hover {
+  color: #fff;
+  border: 3px solid #16a085;
+  background-color: #16a085;
+}
+.ib_dev_about {
+  margin: 0px 20px;
+  line-height: 1.7em;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: justify;
+}
+.ib_dev_input {
+  width: 70%;
+  padding: 5px;
+  font-size: 0.9em;
+  font-family: inherit;
+  font-weight: bold;
+  color: #999;
+  text-align: center;
+  border: 3px solid #e1e1e1;
+  outline: 0;
+  background-color: #ececec;
+  transition: ease-in 300ms;
+}
+.ib_dev_btn {
+  width: 70%;
+  padding: 5px;
+  font-size: 0.75em;
+  font-family: inherit;
+  color: #fff;
+  text-align: center;
+  outline: 0;
+  cursor: pointer;
+  background-color: #16a085;
+  transition: ease-in 300ms;
+}
+.ib_dev_quote {
+  font-size: 24px;
+  font-weight: 500;
+  color: #16a085;
+}
+.ib_dev_textarea {
+  width: 100%;
+  height: 300px;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: 500;
+  color: #999;
+  text-align: justify;
+  line-height: 1.5em;
+  resize: none;
+  border: 3px solid #e1e1e1;
+  outline: 0;
+  background-color: #ececec;
+  transition: ease-in 300ms;
+}
+.ib_dev_btn:focus, .ib_dev_input:focus, .ib_dev_textarea:focus {
+  box-shadow: 0px 1px 10px #ececec;
+}
+.ib_user_information {
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+.ib_user_name {
+  color: #16a085;
+  text-align: left;
+}
+.ib_user_sub {
+  font-size: 10px;
+  color: #999;
+  text-align: left;
+}
