@@ -1,5 +1,5 @@
 <?php
-	$dir = $_SERVER['DOCUMENT_ROOT'] . '/_clients/leba-basic/';
+	$dir = $_SERVER['DOCUMENT_ROOT'] . '/leba/';
 	require_once $dir . 'app/ib_init.php';
 
 	$request = IB_Database::IB_Escape($_GET['key']);
