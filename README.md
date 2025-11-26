@@ -54,7 +54,7 @@ Before installing, ensure your system meets these requirements:
 Clone the project from your repository:
 
 ```bash
-git clone https://github.com/yourusername/leba.git
+git clone https://github.com/jayveeinfinity-solutions/leba.git
 cd leba
 ```
 
